@@ -15,7 +15,9 @@ body{
     width: 100%
 }
 .bg-color{
-    background-color: aquamarine;
+    background-color:wheat;
+    border-radius: 5px;
+    
 }
 
 
@@ -33,10 +35,15 @@ body{
 .extra-btn{
     position: relative;
     left: 40px;
-    top: 8px;
+    top: 3px;
     padding: 4px 7px;
     border-radius: 10px;
 
+}
+.hot{
+    position: relative;
+    left: 200px;
+    
 }
 
 
