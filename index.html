@@ -6,12 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <!-- font-family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
     <!-- font-icon -->
     <script src="https://kit.fontawesome.com/7611521207.js" crossorigin="anonymous"></script>
     <!-- bootstrap link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <title>Document</title>
+    <title>Assignment Three</title>
 </head>
 
 <body>
@@ -30,11 +34,11 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <a class="nav-link" href="#">About Us</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link">Disabled</a>
+                            <a class="nav-link">Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -105,7 +109,7 @@
 
             </div>
             <div class="col-lg-6 col-12 bg-color mt-3">
-                <div class=" p-3 rounded-3">
+                <div class=" p-3 rounded-2">
                     <h1 class="text-center fw-bold">WEDDINGS</h1>
                     <P>The Samarai Convention Center staff approaches your wedding event as seriously as you do.
 
@@ -121,7 +125,7 @@
 
 
         <!-- our-packages -->
-        <h1 class="text-center fw-bold mb-5">OUR PACKAGES</h1>
+        <h1 class="text-center fw-bold my-5">OUR PACKAGES</h1>
         <section class="container my-5">
             <div class="row gx-3">
                 <div class="col-lg-3 p-3">
@@ -153,7 +157,7 @@
                 <!-- extra box -->
 
                 <div class="col-lg-3 extra-box mt-3">
-                    <span class="badge rounded-pill bg-danger text-light hot">hot</span>
+                    <span class="badge rounded-pill bg-danger text-light hot">Hot</span>
                     <h1 class="text-white">$800</h1>
                     <h2 class="text-white">Wedding plus</h2>
                     <p> <i class="fas fa-check pe-2"></i>For most weddings with premium plans</p>
@@ -190,19 +194,24 @@
         <!-- toast -->
 
         <section class="container">
-            <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-                <div class="toast-header">
-                    <img src="..." class="rounded me-2" alt="...">
-                    <strong class="me-auto">Bootstrap</strong>
-                    <small>11 mins ago</small>
-                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-                </div>
-                <div class="toast-body">
-                    Hello, world! This is a toast message.
+            <button type="button" class="btn btn-primary" id="liveToastBtn">Please Check It</button>
+
+            <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+                <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="toast-header">
+                        <img src="..." class="rounded me-2" alt="...">
+                        <strong class="me-auto">Bootstrap</strong>
+                        <small>11 mins ago</small>
+                        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </div>
+                    <div class="toast-body">
+                        Hello, Gentalmen.
+                    </div>
                 </div>
             </div>
-        </section>
 
+
+        </section>
 
         <!-- extra section-2 -->
         <section class="container row mx-auto  my-5">
@@ -211,7 +220,7 @@
                 <P>There are events and then there are occasions, moments in time that will be
                     etched in minds of people
                     for the rest of their lives. The M Weddings & Convention Center makes these moments possible, with a
-                    one of a kind venue, for your one of a kind occasion. As Chennai’s first Full Service Wedding Hall ,
+                    one of a kind venue, for your one of a kind occasion. As dhaka’s first Full Service Wedding Hall ,
                     we provide comprehensive facilities including an integrated Food & Beverage service, allowing you to
                     focus on the things that truly matter.
                 </P>
@@ -223,7 +232,121 @@
         </section>
 
 
+        <!-- last section -->
+        <section class="container">
+            <h1 class="text-center my-5">Frequently Asked Questions</h1>
+            <div class="row my-5">
+                <div class="col-lg-6">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    WHAT KIND OF EVENTS CAN THE BANQUET HALL BE RENTED FOR?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>The hall is..</strong> The banquet hall and
+                                    reception/lobby areas are ideal (and affordable) for a variety of events, including,
+                                    Wedding Receptions, Anniversary Celebrations, Corporate Meetings, Staff Christmas
+                                    Parties, Art Exhibitions, Birthday Parties, Seminars, Auctions, and much
+                                    more...
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    WHAT IS THE CAPACITY OF THE BANQUET HALL,
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> Our main banquet hall can
+                                    accommodate up to 700 attendees in a theater or auditorium style setting and
+                                    approximately 500 in a banquet style setting. The reception area can further
+                                    accommodate up to 150+ attendees in a standing room setting. Therefore, it is a
+                                    large enough venue for corporate conventions and much more. Total space of main
+                                    banquet hall and reception area is approximately 8500 square ft. Floor plan soon to
+                                    be available.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    IS THE PARKING FREE?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> Yes, there is plenty of
+                                    free parking available. The parking lot can hold 200 to 250+ vehicles or more if our
+                                    adjacent land is needed (including handicap spaces). Additional free street parking
+                                    is available.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    DO YOU REQUIRE EVENT INSURANCE?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> Yes. You can now purchase
+                                    insurance coverage online through Pearson Dunn Insurance. The online application is
+                                    quick and easy. In most cases you will immediately receive confirmation of insurance
+                                    coverage upon purchase.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="images/people.png" alt="">
+
+                </div>
+
+            </div>
+        </section>
+
+
     </main>
+    <!-- footer-start -->
+
+    <footer class="container-fluid row ">
+        <small class="text-white col-lg-10 pt-5">&copy; 2022 bike. All rights reserved</small>
+
+        <div class="col-lg-2 pt-5">
+            <p class="text-white">Get The Apps</p>
+
+            <a href="https://apps.apple.com/us/app/facebook/id284882215">
+
+                <img width="100px" src="/icons/icon-store-lrg-apple.png" alt=""></a>
+
+
+            <a href="https://play.google.com/store/apps/details?id=com.google.android.youtube&hl=en&gl=US"><img
+                    width="100px" src="/icons/images.png" alt=""></a>
+
+
+
+        </div>
+
+
+
+
+    </footer>
 
 
 
