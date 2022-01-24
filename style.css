@@ -1,3 +1,6 @@
+body{
+    background-color: #F3F5F9;
+}
 .button-link{
     text-decoration: none;
     background-color: aquamarine;
@@ -7,3 +10,31 @@
     font-weight: 800;
 
 }
+
+.img-width{
+    width: 100%
+}
+.bg-color{
+    background-color: aquamarine;
+}
+
+
+/* our-pakcages */
+.our-packages{
+    background-color:wheat;
+    border-radius: 8px;
+    height: auto;
+    width: 300px;
+    Height:400px;
+}
+
+.extra-packages{
+    position: relative;
+    bottom: 30px;
+    background-color: #3F87F5;
+    Width:300px;
+    Height:420px;
+    border-radius: 8px;
+}
+
+
